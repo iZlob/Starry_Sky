@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Sky in stars</title>
+    <link rel="icon" href="polar.jpg">
+    <script src="jQuery.js"></script>
+    <script src="script.js"></script>
+    <script src="TableCreator.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+    <div style="display: inline;" id="d">
+        <button id="musik" data-title="Для создания атмосферы" onclick="clickPlay()" style="width: 30px;">▶</button>
+        <button onclick="BigBear()">Большая Медведица</button>
+        <button onclick="SmallBear()">Малая Медведица</button>
+        <button onclick="Dragon()">Дракон</button>
+        <button onclick="Kasiopea()">Кассиопея</button>
+    </div>    
+    <div id="TableRoot">
+
+    </div>
+
+
+    <script>
+        tableGenerator.CreateTable()
+    </script>
+    <script src="star.js"></script>
+</body>
+</html>
